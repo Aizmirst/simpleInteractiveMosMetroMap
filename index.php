@@ -1,5 +1,9 @@
+<?php
+    include "db/connect_db.php";
+?>
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,29 +11,24 @@
     <title>Московский метрополитен</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="script/main.js"></script>
 </head>
+
 <body>
     <div class="map">
-        <svg viewBox = "0 0 2738.0283 3414.0845">
-            <a href="#popup">
-                <path id="red1" class="redLine" d = "m 2168.9213,703.97496 a 13,13 0 0 1 -18.1061,-3.17277 13,13 0 0 1 3.1672,-18.10705 13,13 0 0 1 18.108,3.16169 13,13 0 0 1 -3.1561,18.10898 l -7.4792,-10.63305 z">
-
-                </path>
-            </a>
-            
-        </svg>
-        <img src="images/mosMetro.png" alt="">
+        
     </div>
     <div id="popup" class="popup">
-        
         <a href="#" class="popup_area"></a>
         <div class="popup_body">
             <div class="popup_content">
                 <a href="#" class="popup_close">X</a>
-                <div class="popup_title">Бульвар Рокасовского</div>
+                <div id="popData" class="popup_title">Бульвар</div>
                 <div class="popup_text">Станция метро</div>
             </div>
         </div>
     </div>
 </body>
+
 </html>
