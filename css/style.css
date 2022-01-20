@@ -67,6 +67,7 @@ svg{
 }
 
 .popup_title{
+    text-align: center;
     font-size: 40px;
     margin: 0px 0px 1em 0px;
 }
