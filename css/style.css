@@ -16,10 +16,36 @@ svg{
     opacity: 0;
 }
 
-.redLine:hover{
+.redLine:hover, .greenLine:hover,.blueLine:hover,
+.lightblueLine:hover,.brownLine:hover,.orangeLine:hover{
     transition: opacity .2s ease;
     opacity: 1;
     cursor: pointer;
+}
+
+.greenLine{
+    fill: green;
+    opacity: 0;
+}
+
+.blueLine{
+    fill: blue;
+    opacity: 0;
+}
+
+.lightblueLine{
+    fill: cyan;
+    opacity: 0;
+}
+
+.brownLine{
+    fill: brown;
+    opacity: 0;
+}
+
+.orangeLine{
+    fill: orange;
+    opacity: 0;
 }
 
 .popup{
